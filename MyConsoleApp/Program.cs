@@ -1,6 +1,4 @@
-﻿using MyLibrary;
-
-namespace MyConsoleApp
+﻿namespace MyConsoleApp
 {
     internal class Program
     {
