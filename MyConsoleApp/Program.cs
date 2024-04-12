@@ -1,10 +1,13 @@
-﻿namespace MyConsoleApp
+﻿using MyLibrary;
+
+namespace MyConsoleApp
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            MessageWritter MyWritter = new MessageWritter();
+            MyWritter.Write("Hello, Writter!");
         }
     }
 }
